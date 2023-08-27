@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: crosshair;
+    background: black;
+}
+
+canvas {
+    margin: 0;
+}
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    user-select: none
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.modal button {
+    padding: 10px;
+    background: skyblue;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
